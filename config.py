@@ -27,5 +27,5 @@ class Config(object):
     OWNER_ID = int(os.environ.get("OWNER_ID", "6488346050"))
     SESSION_NAME = "UPLOADER-X-BOT"
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Shashanklsss:shashank.ls1324@cluster0.rpvm8q5.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
     MAX_RESULTS = "50"
